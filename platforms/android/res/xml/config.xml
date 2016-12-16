@@ -8,24 +8,6 @@
     <description>Segundero de Cocina</description>
     <author email="ivazquez@esdmadrid.es" href="http://www.mywonderland.es">IVZ and GHFT</author>
     <content src="index.html" />
-    <gap:plugin name="org.apache.cordova.battery-status" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.device-motion" />
-    <gap:plugin name="org.apache.cordova.device-orientation" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="org.apache.cordova.globalization" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.vibration" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/icon-48-mdpi.png" />
@@ -36,7 +18,7 @@
     <access origin="*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="permissions" value="none" />
-    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
